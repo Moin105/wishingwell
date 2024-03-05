@@ -12,7 +12,7 @@
   width: 100%;
   max-width: 343px;
   margin-inline: auto;
-  background-color: red;
+  max-height: 100vh;
 }
 
 button{
