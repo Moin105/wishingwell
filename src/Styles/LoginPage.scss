@@ -1,0 +1,85 @@
+.login-page{
+    padding-inline: 16px;
+    height: 100%;
+    max-height: 100vh;
+    overflow: auto;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    .header{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 100px 0px 30px 0px;
+        justify-content: center;
+
+        h2{
+            color: #06d5cd;
+            font-family: 'Inter';
+            margin: 0px;
+            font-weight: 400;
+        }
+    }
+    .buttons-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 10px;
+        .sign-in{
+            font-weight: 600;
+        }
+        .sign-up{
+            font-weight: 600;
+            color: #57646C;
+        }
+    }
+    .quote{
+        color: #57646C;
+        font-size: 14px;
+    }
+    .form-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        margin-top: 14px;
+
+        .primary-button{
+            height: 50px;
+            font-size: 16px;
+            text-align: center;
+            background-color: #06d5cd ;
+            font-family: 'Inter';
+            font-weight: 500;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            width: 150px;
+            cursor: pointer;
+        }
+
+        .secondary-button{
+            height: 50px;
+            font-size: 16px;
+            text-align: center;
+            background-color: white ;
+            font-family: 'Inter';
+            font-weight: 500;
+            color: black;
+            border: none;
+            border-radius: 30px;
+            width: 150px;
+            cursor: pointer;
+        }
+
+        .link-button {
+            font-size: 14px;
+            color: #57646C;
+            font-weight: 500;
+            text-decoration: none;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
