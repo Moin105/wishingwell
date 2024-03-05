@@ -16,7 +16,8 @@ const StyledLabel = styled.label`
 `;
 
 const StyledInput = styled.input`
-width:305px;
+  width: 100%;
+  max-width:320px;
   padding: 0px;
   font-size: 16px;
   height: 50px;

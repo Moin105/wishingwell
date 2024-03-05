@@ -1,0 +1,103 @@
+.checkout-page{
+
+    .stripe-container{
+        background-color: #F1F4F8;
+        padding: 8px;
+        padding-bottom: 30px;
+        font-weight: 600;
+    }
+    .notch{
+        width: 50px;
+        height: 4px;
+        background-color:#F1F4F8 ;
+        border-radius: 2px;
+        margin-inline: auto;
+        margin-block: 4px;
+    }
+    .header{
+        padding: 12px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        gap:12px;
+        border-bottom: 1px solid #F1F4F8; ;
+
+        .back-icon {
+            color:#646E88 ;
+            width: 20px;
+            height: 20px;
+        }
+        .content {
+            flex: 1;
+
+            p{
+               font-size: 12px; 
+               margin-top: 4px;
+            }
+        }
+    }
+    .content-wrapper{
+        padding: 16px;
+        .inputs-wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+        }
+        .bold-text{
+            font-size: 12px;
+            margin-bottom: 6px;
+        }
+        .gray-text{
+            font-size: 12px;
+            color: #646E88;
+        }
+        .amount-wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+        .gray-text-large{
+            display: flex;
+            align-items: start;
+            gap: 4px;
+            font-size: 16px;
+            color: #646E88;
+        }
+    }
+
+    .buttons-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        padding-block: 30px;
+
+        .custom-button{
+            height: 50px;
+            font-size: 16px;
+            text-align: center;
+            background-color: #06d5cd ;
+            font-family: 'Inter';
+            font-weight: 500;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            width: 240px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .gray-text{
+            font-size: 12px;
+            color: #646E88;
+        }
+    }
+    .gray-box{
+        height: 48px;
+        background-color: #F1F4F8;
+    }
+}
