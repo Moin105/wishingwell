@@ -3,22 +3,26 @@
     flex-direction: column;
     justify-content: space-between;
     .wrapper{
-
+        padding-top: 8px;
         .cancel-icon{
-            color: #57646C;
-            font-size: 30px;
             display: flex;
-            justify-content: end;
-            margin: 5px;
-        
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            color: #57646C;
+            margin-left: auto;
+            border-radius: 100%;
+            border : 1px solid #e5e8ec;
+            font-size: 24px;
         }
         .confirm{
             display: flex;
             justify-content: center;
             border: 1px solid #06d5cd;
             border-radius: 100%;
-            height: 150px;
-            width: 150px;
+            height: 120px;
+            width: 120px;
             text-align: center;
             align-items: center;
             background-color:  #c4f2ec;
@@ -31,13 +35,17 @@
             
         }
         .title{
-            display: flex; 
             font-size: 30px;
             color: #06d5cd;
-            justify-content: center;
             font-weight: bold;
             margin-top: 15px;
-        
+            text-align: center;
+        }
+        .price{
+            font-size: 36px;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 16px;
         }
         .para{
             display: flex; 

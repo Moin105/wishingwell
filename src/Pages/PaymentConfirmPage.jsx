@@ -1,22 +1,23 @@
 import "../Styles/PaymentConfirmPage.css";
-import { MdOutlineCancel } from "react-icons/md";
 import { FaCheck } from "react-icons/fa6";
 import mastercard from "../images/mastercard.png"
+import { IoIosClose } from "react-icons/io";
 
 function PaymentConfirmPage(){
     return (
         <div className="container payment-page">
             <div className="wrapper">
                 <div className="cancel-icon">
-                <MdOutlineCancel />
+                    <IoIosClose />
                 </div>
                 <div className="confirm">
                 <FaCheck className="check-icon" />
                 </div>
-                <div className="title">
-                    <span>
+                <div>
+                    <h1 className="title">
                         Payment Confirmed!
-                    </span>
+                    </h1>
+                    <h2 className="price">$425.24</h2>
                 </div>
                 <div className="para">
                     <span>
@@ -32,10 +33,9 @@ function PaymentConfirmPage(){
                     </div>
                 </div>
             </div>
-<button className="custom-button">
-Go Home
-</button>
-
+            <button className="custom-button">
+            Go Home
+            </button>
         </div>
     )
 
