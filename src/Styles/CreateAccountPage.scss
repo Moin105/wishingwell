@@ -1,0 +1,108 @@
+.create-account-page{
+    padding-bottom: 50px;
+    
+    .header{
+        padding: 12px;
+        background-color: #E5E7EB;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 6px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        
+        .back-icon {
+            color: white;
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .title-wrapper{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 70px 0px 50px 0px;
+        justify-content: center;
+
+        h2{
+            color: #06d5cd;
+            font-family: 'Inter';
+            margin: 0px;
+            font-weight: 900;
+        }
+    }
+    .wrapper {
+        border: 2px solid #06d5cd;
+        border-radius: 10px;
+        padding: 14px;
+
+        .title{
+            font-size: 28px;
+            text-align: left;
+        }
+
+        .quote{
+            color: #57646C;
+            font-size: 14px;
+            text-align: left;
+        }
+
+        .input-wrapper{
+            position: relative;
+
+            .float-icon{
+                position: absolute;
+                top: 50%;
+                right: 14px;
+                transform: translateY(-50%);
+                font-size: 20px;
+                color: #57646C;
+            }
+        }
+        .custom-button{
+            height: 50px;
+            font-size: 16px;
+            text-align: center;
+            background-color: #06d5cd ;
+            font-family: 'Inter';
+            font-weight: 500;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .google-button{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            height: 28px;
+            font-size: 12px;
+            background-color: white ;
+            font-family: 'Inter';
+            color: #57646C;
+            border: none;
+            border-radius: 10px;
+            width: 100%;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            margin-top: 40px;
+
+            .google-icon{
+                width: 20px;
+                height: 20px;
+            }
+        }
+        .sign-in-text{
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 20px;
+            .link-button{
+                font-size: 14px;
+                color: #06d5cd;
+                font-weight: 500;
+                text-decoration: none;
+                background-color: white;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}

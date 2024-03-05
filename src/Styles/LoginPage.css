@@ -44,7 +44,19 @@
   gap: 14px;
   margin-top: 14px;
 }
+.login-page .form-wrapper .input-wrapper {
+  position: relative;
+}
+.login-page .form-wrapper .input-wrapper .float-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #57646C;
+}
 .login-page .form-wrapper .primary-button {
+  margin: 0px;
   height: 50px;
   font-size: 16px;
   text-align: center;
@@ -58,6 +70,7 @@
   cursor: pointer;
 }
 .login-page .form-wrapper .secondary-button {
+  margin: 0px;
   height: 50px;
   font-size: 16px;
   text-align: center;
@@ -78,4 +91,20 @@
   background-color: white;
   border: none;
   cursor: pointer;
+}
+.login-page .form-wrapper .login-with-btn {
+  height: 40px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: white;
+  font-family: "Inter";
+  font-weight: 500;
+  color: black;
+  border: 2px solid #E5E7EB;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 200px;
 }/*# sourceMappingURL=LoginPage.css.map */
