@@ -95,4 +95,8 @@
   background-color: white;
   border: none;
   cursor: pointer;
+}
+
+.wrapper form div input {
+  margin: 0px;
 }/*# sourceMappingURL=CreateAccountPage.css.map */
