@@ -2,7 +2,7 @@ import CustomInput from "../Components/Input/CustomInput";
 import "../Styles/CheckoutPage.css";
 import { IoMdArrowBack, IoMdInformationCircleOutline } from "react-icons/io";
 import { FaApple, FaPaypal } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 function CheckoutPage() {
   return (
     <div className="container checkout-page">
@@ -39,10 +39,12 @@ function CheckoutPage() {
         </div>
       </div>
       <div className="buttons-wrapper">
+      <Link to="/payment-confirm">
         <button className="custom-button">Pay w/ Credit Card</button>
+      </Link>
         <p className="gray-text">Or use an option below</p>
-        <button className="custom-button"><FaApple />Apple Pay</button>
-        <button className="custom-button"><FaPaypal />Pay w/Paypal</button>
+       <Link to="/payment-confirm"> <button className="custom-button"><FaApple />Apple Pay</button></Link>
+       <Link to="/payment-confirm"> <button className="custom-button"><FaPaypal />Pay w/Paypal</button></Link>
       </div>
       <div className="gray-box"></div>
     </div>

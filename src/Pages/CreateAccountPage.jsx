@@ -3,6 +3,7 @@ import '../Styles/CreateAccountPage.css';
 import { IoMdArrowBack } from "react-icons/io";
 import { BiHide } from "react-icons/bi";
 import googleIcon from '../images/google.jpeg';
+import { Link } from 'react-router-dom';
 function CreateAccountPage() {
     return (
         <div className="container create-account-page">
@@ -22,14 +23,18 @@ function CreateAccountPage() {
                         <CustomInput type="password" placeholder="Password" />
                         <BiHide className='float-icon' />
                     </div>
+                    <Link  to="/price-page">
                     <button className='custom-button'>Create Account</button>
+                    </Link>
                 </form>
                 <button className='google-button' >
                     <img src={googleIcon} className='google-icon' alt="google icon" />
                     Sign in with Google
                 </button>
+
                 <div className='sign-in-text'>
-                    Already have an account? <button className='link-button'>Login</button>
+                
+                    Already have an account?  <Link  to="/login"> <button className='link-button'>Login</button></Link>
                 </div>
             </div>
         </div>

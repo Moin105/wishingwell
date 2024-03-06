@@ -12,11 +12,12 @@
   width: 100%;
   max-width: 343px;
   margin-inline: auto;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 button{
   max-width: 320px;
+  cursor: pointer;
 }
 
 .icon{

@@ -21,7 +21,7 @@ const StyledInput = styled.input`
   padding: 0px;
   font-size: 16px;
   height: 50px;
-  
+  margin:0px 0px 0px 11px;
   padding:0px 0px 0px 14px;
   font-family: 'Inter';
   border: 2px solid #39d2c0;

@@ -6,16 +6,20 @@ import WelcomePage from './Pages/WelcomePage'
 import LoginPage from './Pages/LoginPage';
 import PaymentConfirmPage from './Pages/PaymentConfirmPage';
 import CheckoutPage from './Pages/CheckoutPage';
+import { Routes, Route } from 'react-router-dom';
 import CreateAccountPage from './Pages/CreateAccountPage';
 function App() {
   return (
     <div className="main">
-          {/* <PricePage/> */}
-          {/* <LoginPage /> */}
-          {/* <PriceDetailPage/> */}
-          {/* <PaymentConfirmPage /> */}
-          {/* <CheckoutPage /> */}
-          <CreateAccountPage />
+    <Routes >
+          {/* <Route path="/price-page" element={<PricePage/>}/>  */}
+          <Route path="/login" element={<LoginPage/>}/>
+          <Route path="/price-page" element={<PriceDetailPage/>}/>
+          <Route path="/payment-confirm" element={<PaymentConfirmPage />}/>
+          <Route path="/checkout" element={<CheckoutPage />}/>
+          <Route path="/signup" element={<CreateAccountPage />}/>
+          <Route path="/" element={<WelcomePage/>}/>
+    </Routes>
     </div>
   );
 }

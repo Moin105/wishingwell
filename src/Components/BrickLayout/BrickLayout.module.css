@@ -1,65 +1,115 @@
 .brick-layout { 
-    position: absolute;
-    width: 60%;
+    /* position: absolute; */
+    /* width: 60%; */
     height: 100%;
     top: 0;
-    right: -150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* right: -150px; */
 	display: flex;
-    column-gap: 15px;
-    overflow: hidden;
+    z-index: -1;
+    column-gap: 10px;
+    /* overflow: hidden; */
 }
-.brick-layout::before {
+/* .brick-layout::before {
     content: '';
     position: absolute;
     inset: 0;
     background: var(--dark-900);
     opacity: .4;
-}
+} */
 .brick-column {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
 }
+ .img1{
+    object-fit: contain;
+    width: 100%;
+    height: 120px;
+ }
+ .img2{
+    object-fit: contain;
+    width: 100%;
+    height: 190px;
+ } .img3{
+    object-fit: contain;
+      width: 100%;
+    height: 180px;
+ } .img4{
+    object-fit: contain;
+      width: 100%;
+    height: 180px;
+ } .img5{
+    object-fit: contain;
+      width: 100%;
+    height: 150px;
+ } .img6{
+    object-fit: contain;
+      width: 100%;
+    height: 190px;
+ } .img7{
+    object-fit: contain;
+      width: 100%;
+    height: 180px;
+ } .img8{
+    object-fit: contain;
+      width: 100%;
+    height: 160px;
+ } .img9{
+    object-fit: contain;
+      width: 100%;
+    height: 160px;
+ }
 .brick-column:first-child img:first-child {
-    margin-top: -220px;
+    /* margin-top: -220px; */
 }
 .brick-column:nth-child(2) img:first-child {
-    margin-top: -130px;
+    /* margin-top: -130px; */
 }
 .brick-column:nth-child(2) img:nth-child(2) {
-    height: 400px;
+    /* height: 400px; */
 }
 .brick-column:nth-child(3) img:first-child {
-    margin-top: -240px;
+    /* margin-top: -240px; */
 }
+
 .brick-column img {
-    width: 100%;
-    height: 350px;
+    /* width: 100%;
+    height: 350px; */
     object-fit: cover;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     border-radius: 10px;
-    animation: moveImages 6s linear infinite; /* Apply animation to each image */
+    /* animation: moveImages 6s linear infinite; Apply animation to each image */
+}
+.brick-column {
+    animation: moveImages 6s linear infinite; 
 }
 
 /* Keyframes for moving images */
 @keyframes moveImages {
-    0% { transform: translateY(0); } /* Initial position */
-    100% { transform: translateY(-50%); } /* Move image to top */
+    0%, 100% { transform: translateY(0); } /* Initial and final positions (no change) */
+    50% { transform: translateY(-10%); } /* Move image to top */
 }
 
 @media screen and (max-width: 1100px) {
     .brick-layout {
-        width: 70%;
+        /* width: 70%; */
     }
 }
 @media screen and (max-width: 960px) {
     .brick-layout {
-        width: 80%;
+        /* width: 80%; */
     }
 }
 @media screen and (max-width: 840px) {
     .brick-layout {
-        right: 50%;
-        transform: translate(50%, -55%);
+        /* right: 50%; */
+        /* transform: translate(50%, -55%); */
         top: 100%;
         border-radius: 10px;
     }

@@ -2,7 +2,7 @@ import InputRounded from '../Components/Input/InputRounded';
 import '../Styles/LoginPage.css';
 import { FaGoogle, FaApple } from "react-icons/fa";
 import { BiHide } from "react-icons/bi";
-
+import { Link } from 'react-router-dom';
 function LoginPage() {
 return (
         <div className="container login-page">
@@ -11,7 +11,7 @@ return (
             </div>
             <div className='buttons-wrapper'>
                 <h1 className='sign-in'>Sign In </h1>
-                <h1 className='sign-up'>Sign Up</h1>
+                {/* <h1 className='sign-up'>Sign Up</h1> */}
             </div>
             <p className='quote'>Let's get started by filling out the form below.</p>
             <div className='form-wrapper'>
@@ -20,7 +20,9 @@ return (
                     <InputRounded type="placeholder" placeholder='Password' />
                     <BiHide className='float-icon' />
                 </div>
-                <button className='primary-button'>Sign In</button>
+               <Link to="/price-page">
+               <button className='primary-button'>Sign In</button>
+               </Link> 
                 <button className='secondary-button'>Forgot Password</button>
                 <button className='link-button'>Or Sign up with</button>
                 <button className='login-with-btn'>

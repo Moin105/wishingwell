@@ -2,6 +2,7 @@ import "../Styles/PaymentConfirmPage.css";
 import { FaCheck } from "react-icons/fa6";
 import mastercard from "../images/mastercard.png"
 import { IoIosClose } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 function PaymentConfirmPage(){
     return (
@@ -33,9 +34,11 @@ function PaymentConfirmPage(){
                     </div>
                 </div>
             </div>
+            <Link to="/price-page">
             <button className="custom-button">
             Go Home
             </button>
+            </Link>
         </div>
     )
 

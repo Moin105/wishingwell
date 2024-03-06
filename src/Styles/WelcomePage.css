@@ -1,21 +1,27 @@
-.banner-image {
-  background: rgb(6, 213, 205);
-  background: linear-gradient(90deg, rgb(6, 213, 205) 36%, rgb(255, 255, 255) 100%);
-  height: 50vh;
+.welcome-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 100px 0px 50px 0px;
 }
-
-.welcome-text {
+.welcome-page .welcome-text {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #06D5CD;
   font-size: 40px;
   font-weight: bold;
+  max-width: 349px;
   text-align: center;
+  margin: 0 auto;
   margin-top: 30px;
 }
-
-.desc-text {
+.welcome-page .desc-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -24,14 +30,16 @@
   color: #57646C;
   margin-top: 10px;
 }
-
-.form-wrapper {
+.welcome-page .form-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.form-wrapper .primary-button {
+.welcome-page .form-wrapper a {
+  text-decoration: none !important;
+}
+.welcome-page .form-wrapper a .primary-button {
   display: flex;
   margin: 14px 12px;
   height: 50px;
@@ -48,7 +56,7 @@
   margin-top: 40px;
   width: 350px;
 }
-.form-wrapper .secondary-button {
+.welcome-page .form-wrapper a .secondary-button {
   display: flex;
   margin: 14px 0px;
   height: 50px;

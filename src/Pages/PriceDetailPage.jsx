@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Styles/PriceDetailPage.css'
 import CustomInput from '../Components/Input/CustomInput'
+import { Link } from 'react-router-dom'
 function PriceDetailPage() {
   return (
     <div className='price-detail-page'>
@@ -35,9 +36,12 @@ function PriceDetailPage() {
       <CustomInput label="Last Name" type="text" placeholder="Enter Your Last Name" />
       <CustomInput label="Email" type="email" placeholder="Enter Your Email" />
       <CustomInput label="Your Message" type="text" placeholder="Enter Your Message" />
-      <button className='custom-button'>
+      <Link to={'/checkout'}>
+
+      <button className='custom-buttons'>
                     Next
               </button>
+      </Link>
       </div>
     </div>
   )
