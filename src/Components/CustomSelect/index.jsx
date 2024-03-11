@@ -25,7 +25,6 @@ const StyledSelectContainer = styled.div`
 
 const StyledSelect = styled.select`
   width: 100%;
-  max-width: 320px;
   font-size: 16px;
   height: 50px;
   padding: 0px 30px 0px 14px; /* Adjust right padding to make space for the icon */

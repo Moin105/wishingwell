@@ -26,7 +26,7 @@ function PriceDetailPage() {
         <CustomInput
           label="Email"
           type="email"
-          placeholder="Enter Your Email"
+          placeholder="Enter Receivers Email"
         />
         <CustomTextArea label="Your Message" placeholder="Enter Your Message" />
         <Link to={"/checkout"}>
