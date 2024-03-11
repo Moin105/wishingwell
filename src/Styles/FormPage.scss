@@ -1,0 +1,81 @@
+.form-page {
+  background-color: white;
+  width: 100%;
+
+  .form-header {
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 12px 16px;
+
+    .header-content {
+      width: 100%;
+      max-width: 1200px;
+      margin-inline: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      width: 100%;
+
+      .logo {
+        font-weight: 900;
+      }
+
+      .help {
+        font-size: 12px;
+        color: #646e88;
+      }
+    }
+  }
+
+  .form-content {
+    text-align: center;
+    padding: 50px 16px 24px 16px;
+
+    .title {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .text {
+      font-size: 12px;
+      margin-block: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+
+      .heart {
+        color: red;
+      }
+    }
+
+    hr{
+        max-width: 50%;
+        margin-inline: auto;
+        margin-bottom: 12px;
+    }
+    .inputs-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+    }
+    .custom-button{
+        height: 50px;
+        font-size: 16px;
+        text-align: center;
+        background-color: #06d5cd ;
+        font-family: 'Inter';
+        font-weight: 500;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        width: 200px;
+        margin-inline: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    }
+  }
+}

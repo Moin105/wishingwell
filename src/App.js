@@ -8,6 +8,7 @@ import PaymentConfirmPage from './Pages/PaymentConfirmPage';
 import CheckoutPage from './Pages/CheckoutPage';
 import { Routes, Route } from 'react-router-dom';
 import CreateAccountPage from './Pages/CreateAccountPage';
+import Form from './Pages/Form';
 function App() {
   return (
     <div className="main">
@@ -19,6 +20,7 @@ function App() {
           <Route path="/checkout" element={<CheckoutPage />}/>
           <Route path="/signup" element={<CreateAccountPage />}/>
           <Route path="/" element={<WelcomePage/>}/>
+          <Route path='/form' element={<Form />}/>
     </Routes>
     </div>
   );

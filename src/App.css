@@ -24,3 +24,13 @@ button{
   width: 16px;
   height: 16px;
 }
+
+.rdw-editor-wrapper {
+  border: 2px solid #06d5cd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.rdw-editor-main {
+  height: 120px;
+}
