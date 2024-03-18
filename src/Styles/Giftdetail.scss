@@ -1,0 +1,19 @@
+.gift-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h3{
+        font-size: 24px;
+        color: #06d5cd;
+        font-family: "Inter";
+        margin: 0px;
+        text-align: center;
+    }
+    .p-gift{
+       font-size: 18px;
+       span{
+        color: #06d5cd;
+        font-weight: 700;
+       }
+    }
+}

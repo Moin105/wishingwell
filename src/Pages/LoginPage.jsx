@@ -20,6 +20,7 @@ return (
                     <InputRounded type="placeholder" placeholder='Password' />
                     <BiHide className='float-icon' />
                 </div>
+                
                <Link to="/price-page">
                <button className='primary-button'>Sign In</button>
                </Link> 
@@ -29,10 +30,10 @@ return (
                     <FaGoogle className='icon' />
                     Continue with Google
                 </button>
-                <button className='login-with-btn'>
+                {/* <button className='login-with-btn'>
                     <FaApple className='icon' />
                     Continue with Apple
-                </button>
+                </button> */}
             </div>
         </div>
 )

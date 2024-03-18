@@ -6,7 +6,8 @@ import { FaHeart } from "react-icons/fa6";
 import { EditorState } from 'draft-js';
 import { Editor } from 'react-draft-wysiwyg';
 import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
-
+import { Link } from 'react-router-dom';
+import Header from '../Components/Header/Header';
 const countryOptions = [
     { label: "Australia", value: "AU" },
     { label: "United States", value: "US" },
@@ -24,13 +25,15 @@ function Form() {
     const [editorState, setEditorState] = useState(EditorState.createEmpty());
 
   return (
+    <>
+    <Header />
     <div className="form-page">
-      <header className="form-header">
+      {/* <header className="form-header">
         <div className="header-content">
-          <h3 className="logo">WISHFULL</h3>
+          <h3 className="logo">SendWish</h3>
           <p className="help">HELP</p>
         </div>
-      </header>
+      </header> */}
       <div className="container form-content">
         <p className="title">Elen & Ben</p>
         <CustomInput
@@ -74,9 +77,12 @@ function Form() {
           placeholder=""
         />
         <CustomSelect label="Country" options={countryOptions} />
-        <button className="custom-button">Next</button>
+       <Link to="/price-page">
+       <button className="custom-button">Next</button>
+       </Link> 
       </div>
     </div>
+    </>
   );
 }
 

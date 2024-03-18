@@ -34,7 +34,7 @@ function PaymentConfirmPage(){
                     </div>
                 </div>
             </div>
-            <Link to="/price-page">
+            <Link to="/homepage">
             <button className="custom-button">
             Go Home
             </button>

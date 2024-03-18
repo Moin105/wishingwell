@@ -1,0 +1,19 @@
+.gift-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.gift-detail h3 {
+  font-size: 24px;
+  color: #06d5cd;
+  font-family: "Inter";
+  margin: 0px;
+  text-align: center;
+}
+.gift-detail .p-gift {
+  font-size: 18px;
+}
+.gift-detail .p-gift span {
+  color: #06d5cd;
+  font-weight: 700;
+}/*# sourceMappingURL=Giftdetail.css.map */

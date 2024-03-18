@@ -1,0 +1,21 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.home-container ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+.home-container ul li {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #06d5cd;
+  color: white;
+}/*# sourceMappingURL=Homepage.css.map */
