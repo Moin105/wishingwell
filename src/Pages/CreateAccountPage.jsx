@@ -23,7 +23,7 @@ function CreateAccountPage() {
                         <CustomInput type="password" placeholder="Password" />
                         <BiHide className='float-icon' />
                     </div>
-                    <Link  to="/price-page">
+                    <Link  to="/homepage">
                     <button className='custom-button'>Create Account</button>
                     </Link>
                 </form>
